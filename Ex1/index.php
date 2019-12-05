@@ -66,7 +66,7 @@
 </header>
 <body>
   <h2 class="text-primary text-center pt-5 pb-5 font-weight-bold">Exercice 1</h2>
-  <h3 class="text-center">Consigne : Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</h3>
+  <h3 class="text-center pb-5">Consigne : Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</h3>
   <!-- Début de l'exercice  -->
     <?php
       $ma_variable = "variable";

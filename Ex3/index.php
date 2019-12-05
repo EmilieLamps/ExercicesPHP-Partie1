@@ -10,7 +10,7 @@
   <title>Exercice 3 - Partie 1</title>
 </head>
 <header>
-  <h1 class="text-center text-white">Exercices PHP</h1>
+  <h1 class="text-center text-white pb-5">Exercices PHP</h1>
   <!--Navbar -->
   <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
     <a class="navbar-brand" href="#">PARTIE 1</a>

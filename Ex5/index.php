@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-Ya0fS7U2c07GI3XufLEwSQlqhpN0ri7w/ujyveyqoxTJ2rFHJcT6SUhwhL7GM4h9" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Exercice 2 - Partie 1</title>
+  <title>Exercice 5 - Partie 1</title>
 </head>
 <header>
-  <h1 class="text-center text-white pb-5">Exercices PHP</h1>
+  <h1 class="text-center text-white">Exercices PHP</h1>
   <!--Navbar -->
   <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
     <a class="navbar-brand" href="#">PARTIE 1</a>
@@ -23,10 +23,8 @@
       <li class="nav-item">
         <a class="nav-link" href="http://phppartie1ex1.info/index.php">Exercice 1</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="http://phppartie1ex2.info/index.php">Exercice 2
-          <span class="sr-only">(current)</span>
-        </a>
+      <li class="nav-item">
+        <a class="nav-link" href="http://phppartie1ex2.info/index.php">Exercice 2</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="http://phppartie1ex3.info/index.php">Exercice 3</a>
@@ -34,8 +32,10 @@
       <li class="nav-item">
         <a class="nav-link" href="http://phppartie1ex4.info/index.php">Exercice 4</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://phppartie1ex5.info/index.php">Exercice 5</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="http://phppartie1ex5.info/index.php">Exercice 5
+          <span class="sr-only">(current)</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="http://phppartie1ex6.info/index.php">Exercice 6</a>
@@ -64,15 +64,6 @@
 <!--/.Navbar -->
 </header>
 <body>
-  <h2 class="text-primary text-center pt-5 pb-5 font-weight-bold">Exercice 2</h2>
-  <h3 class="text-center pb-5">Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu.</h3>
-    <?php
-      $lastName = "Lamps";
-      $firstName = "Emilie";
-      $age = 28;  // Variable de type entier : pas de guillemets (entier, réel ou flottant : on écrit la valeur telle qu'elle. Pour les flottants, la virgule est remplacée par un point (écriture à l'américaine).)
-      $identite = $lastName .' '. $firstName .' '. $age; // Ajout d'espaces entre les quotes pour ajouter des espaces entre les valeurs des variables
-      echo $identite;
-    ?>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
