@@ -1,4 +1,4 @@
-
+<?php $ma_variable = "variable"; ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -68,10 +68,8 @@
   <h2 class="text-primary text-center pt-5 pb-5 font-weight-bold">Exercice 1</h2>
   <h3 class="text-center pb-5">Consigne : Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</h3>
   <!-- Début de l'exercice  -->
-    <?php
-      $ma_variable = "variable";
-      echo $ma_variable;
-    ?>
+
+      <p><?= $ma_variable ?></p>
   <!-- Fin de l'exercice -->
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
