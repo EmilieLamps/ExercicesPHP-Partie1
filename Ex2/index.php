@@ -68,7 +68,7 @@
       $lastName = "Lamps";
       $firstName = "Emilie";
       $age = 28;  // Variable de type entier : pas de guillemets (entier, réel ou flottant : on écrit la valeur telle qu'elle. Pour les flottants, la virgule est remplacée par un point (écriture à l'américaine).)
-      $identite = $lastName .' '. $firstName .' '. $age;
+      $identite = $lastName .' '. $firstName .' '. $age; // Ajout d'espaces entre les quotes pour ajouter des espaces entre les valeurs des variables
       echo $identite;
     ?>
   <script type="text/javascript" src="assets/js/script.js"></script>
