@@ -1,3 +1,9 @@
+<?php
+  $lastName = "Lamps";
+  $firstName = "Emilie";
+  $age = 28;  // Variable de type entier : pas de guillemets (entier, réel ou flottant : on écrit la valeur telle qu'elle. Pour les flottants, la virgule est remplacée par un point (écriture à l'américaine).)
+  $identite = $lastName .' '. $firstName .' '. $age; // Ajout d'espaces entre les quotes pour ajouter des espaces entre les valeurs des variables
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -66,13 +72,7 @@
 <body>
   <h2 class="text-primary text-center pt-5 pb-5 font-weight-bold">Exercice 2</h2>
   <h3 class="text-center pb-5">Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu.</h3>
-    <?php
-      $lastName = "Lamps";
-      $firstName = "Emilie";
-      $age = 28;  // Variable de type entier : pas de guillemets (entier, réel ou flottant : on écrit la valeur telle qu'elle. Pour les flottants, la virgule est remplacée par un point (écriture à l'américaine).)
-      $identite = $lastName .' '. $firstName .' '. $age; // Ajout d'espaces entre les quotes pour ajouter des espaces entre les valeurs des variables
-      echo $identite;
-    ?>
+  <p><?php echo $identite; ?></p>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
