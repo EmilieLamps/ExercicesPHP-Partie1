@@ -69,7 +69,7 @@
   <h3 class="text-center">Consigne : Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</h3>
   <!-- Début de l'exercice  -->
     <?php
-      $ma_variable = Ma première variable PHP;
+      $ma_variable = "variable";
       echo $ma_variable;
     ?>
   <!-- Fin de l'exercice -->
