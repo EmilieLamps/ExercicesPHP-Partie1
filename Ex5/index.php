@@ -10,7 +10,7 @@
   <title>Exercice 5 - Partie 1</title>
 </head>
 <header>
-  <h1 class="text-center text-white">Exercices PHP</h1>
+  <h1 class="text-center text-white pb-5">Exercices PHP</h1>
   <!--Navbar -->
   <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
     <a class="navbar-brand" href="#">PARTIE 1</a>
@@ -64,6 +64,15 @@
 <!--/.Navbar -->
 </header>
 <body>
+  <h2 class="text-primary text-center pt-5 pb-5 font-weight-bold">Exercice 5</h2>
+  <h3 class="text-center pb-5">Créer une variable de type int. L'initialiser avec rien.  Afficher sa valeur.
+Donner une valeur à cette variable et l'afficher.</h3>
+  <?php
+    $varInt = "";
+    echo $varInt;
+    $result = (int) $varInt = 10;
+    echo $result;
+   ?>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
