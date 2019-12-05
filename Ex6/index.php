@@ -69,8 +69,8 @@
 Afficher : "Bonjour" + name + ", comment vas tu ?".</h3>
   <?php
   $name = 'Emilie';
-  $message = 'Bonjour ' .$name . ' comment vas-tu ?';
-  echo  $message;
+  $message = 'Bonjour ' .$name . ' comment vas-tu ?'; //faire les espaces avant ou après la chaine de caractères
+  echo  $message; //Pas de = entre echo et la requête !
    ?>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
