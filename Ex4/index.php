@@ -68,7 +68,17 @@
   <h3 class="text-center pb-5">Créer une variable de type string, une variable de type int, une variable de type float, une variable de type booléan et les initialiser avec une valeur de votre choix.
 Les afficher.</h3>
   <?php
-
+    $varString = "chaine";
+    echo $varString;
+    echo '<br/>';
+    $varInt = 50;
+    echo $varInt;
+    echo '<br/>';
+    $varFloat = 50.5;
+    echo $varFloat;
+    echo '<br/>';
+    $varBoolean = True;
+    echo $varBoolean;
    ?>
   <script type="text/javascript" src="assets/js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
