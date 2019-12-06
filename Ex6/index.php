@@ -1,6 +1,5 @@
-
   <?php
-  $page = "Exercice 6";
+  $page = "Exercice 6"; // Définir la variable pour changer le titre !
   $name = 'Emilie';
   $message = 'Bonjour ' .$name . ' comment vas-tu ?'; //faire les espaces avant ou après la chaine de caractères
   include '../header.php';
